@@ -1,4 +1,4 @@
-![Меню](https://images2.imgbox.com/90/65/goml4ylo_o.png)
+![Меню](https://images2.imgbox.com/d3/2c/DNRnwCHY_o.png)
 
 # КБ99 Мини-Склад
 
