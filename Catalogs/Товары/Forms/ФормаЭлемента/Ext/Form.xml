@@ -21,6 +21,7 @@
 		<InputField name="Родитель" id="7">
 			<DataPath>Объект.Parent</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<DropListButton>true</DropListButton>
 			<ClearButton>true</ClearButton>
 			<OpenButton>false</OpenButton>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
