@@ -252,6 +252,11 @@
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonPicture>МиниСклад</CommonPicture>
+			<Role>Администратор</Role>
+			<Role>Директор</Role>
+			<Role>Кладовщик</Role>
+			<Role>Бухгалтер</Role>
+			<Role>Расчетчик</Role>
 			<CommonModule>ПересчетДокументов</CommonModule>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
