@@ -38,6 +38,12 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="Контрагент" id="39">
+			<DataPath>Объект.Контрагент</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="40"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="41"/>
+		</InputField>
 		<Table name="Товары" id="7">
 			<Representation>List</Representation>
 			<Footer>true</Footer>

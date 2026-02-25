@@ -262,11 +262,16 @@
 			<CommandGroup>Документы</CommandGroup>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>ВариантыТоваров</Catalog>
+			<Catalog>ДополнительныеСвойстаТоваров</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Report>ОборотыПоТоварам</Report>
+			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<ChartOfCharacteristicTypes>СвойстваТоваров</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
