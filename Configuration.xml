@@ -258,6 +258,10 @@
 			<Role>Бухгалтер</Role>
 			<Role>Расчетчик</Role>
 			<CommonModule>ПересчетДокументов</CommonModule>
+			<CommonModule>РегламентныеПроцедуры</CommonModule>
+			<CommonModule>СтроковыеПреобразования</CommonModule>
+			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
+			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<Catalog>Товары</Catalog>
