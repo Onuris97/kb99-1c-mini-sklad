@@ -251,7 +251,9 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
+			<Subsystem>Бухгалтерия</Subsystem>
 			<CommonPicture>МиниСклад</CommonPicture>
+			<CommonPicture>Бухгалтерия</CommonPicture>
 			<Role>Администратор</Role>
 			<Role>Директор</Role>
 			<Role>Кладовщик</Role>
@@ -269,13 +271,18 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ВариантыТоваров</Catalog>
 			<Catalog>ДополнительныеСвойстаТоваров</Catalog>
+			<Catalog>Субконто</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Report>ОборотыПоТоварам</Report>
+			<Report>ОборотноСальдоваяВедомость</Report>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваТоваров</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
+			<ChartOfAccounts>Основной</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
