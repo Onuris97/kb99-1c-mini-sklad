@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<CommandsVisibility>
-		<Command name="Catalog.Товары.StandardCommand.OpenList">
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.Субконто.StandardCommand.OpenList">
+		<Command name="CalculationRegister.Начисления.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -31,37 +31,33 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.Продажи.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
-		<Command name="Catalog.Товары.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="Catalog.Субконто.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 		<Command name="Document.Поступление.StandardCommand.OpenList">
@@ -72,31 +68,34 @@
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
 		<Command name="ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccumulationRegister.Продажи.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Catalog.Товары.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.Субконто.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		<Command name="ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="CalculationRegister.Начисления.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Document.Поступление.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
@@ -104,17 +103,19 @@
 		<Command name="Document.Реализация.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 		</Command>
-		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-		</Command>
-		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-		</Command>
 		<Command name="ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.Продажи.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
 		<Group>CommandGroup.Справочники</Group>
 		<Group>CommandGroup.Документы</Group>
 		<Group>NavigationPanelSeeAlso</Group>

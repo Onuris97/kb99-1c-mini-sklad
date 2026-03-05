@@ -21,14 +21,15 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Основной</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Управленческий</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Товары</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСубконто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОборотноСальдоваяВедомость</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Поступление</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Реализация</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Субконто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.Начисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
