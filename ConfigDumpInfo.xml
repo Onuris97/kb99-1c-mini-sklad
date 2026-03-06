@@ -172,8 +172,8 @@
 		<Metadata name="Role.Администратор.Rights" id="9fe294f7-25e9-4812-8898-2e373453fd54.0" configVersion="63f83b6d4d392540b671338d0b6d645800000000"/>
 		<Metadata name="Role.Бухгалтер" id="2a8dfb44-371e-46f4-84bb-f4cdf80b16b8" configVersion="0a6b13de0adec242a1999f4282f7b3be00000000"/>
 		<Metadata name="Role.Бухгалтер.Rights" id="2a8dfb44-371e-46f4-84bb-f4cdf80b16b8.0" configVersion="b433e10cbe83b64c85f1e5d6e92cff9400000000"/>
-		<Metadata name="Role.Гость" id="79445cfd-0d44-49aa-bfc5-ad391801b541" configVersion="8120d648866fcc44ba66a3768b0421d200000000"/>
-		<Metadata name="Role.Гость.Rights" id="79445cfd-0d44-49aa-bfc5-ad391801b541.0" configVersion="7afa6ee153c6524badcc211706d38fde00000000"/>
+		<Metadata name="Role.Гость" id="79445cfd-0d44-49aa-bfc5-ad391801b541" configVersion="1aafb8d7fcf79d4fa20bd2cc763c7ebd00000000"/>
+		<Metadata name="Role.Гость.Rights" id="79445cfd-0d44-49aa-bfc5-ad391801b541.0" configVersion="cff7dd3456a0814ba04982c31c8e0b7d00000000"/>
 		<Metadata name="Role.Директор" id="cda99657-0d9a-4adc-955d-978e8eadb5bb" configVersion="daac9e0b294eea47ab84df08f346b8aa00000000"/>
 		<Metadata name="Role.Директор.Rights" id="cda99657-0d9a-4adc-955d-978e8eadb5bb.0" configVersion="4efebd0a9003714cbfa337d029c33c4300000000"/>
 		<Metadata name="Role.Кладовщик" id="3f2e45fe-cefd-48e9-9b10-f39a1f79ea08" configVersion="52a47d3bc72d2641b84b060531469af300000000"/>

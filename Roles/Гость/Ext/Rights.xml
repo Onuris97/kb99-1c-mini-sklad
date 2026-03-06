@@ -223,6 +223,17 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.Начисления.Attribute.ИсходныеДанные</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.МиниСклад</name>
 		<right>
 			<name>View</name>
@@ -238,6 +249,17 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.НачисленияСотрудникам.TabularSection.Начисления.Attribute.Начислено</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -459,6 +481,17 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.Начисления.Resource.Результат</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
