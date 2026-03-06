@@ -252,11 +252,12 @@
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
 			<Subsystem>Бухгалтерия</Subsystem>
+			<Subsystem>ЗарплатаИКадры</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<CommonPicture>МиниСклад</CommonPicture>
 			<CommonPicture>Бухгалтерия</CommonPicture>
-			<CommonPicture>РасчетЗарплаты</CommonPicture>
 			<CommonPicture>НСИ</CommonPicture>
+			<CommonPicture>ЗарплатаИКадры</CommonPicture>
 			<Role>Администратор</Role>
 			<Role>Директор</Role>
 			<Role>Кладовщик</Role>
@@ -265,6 +266,7 @@
 			<CommonModule>ПересчетДокументов</CommonModule>
 			<CommonModule>РегламентныеПроцедуры</CommonModule>
 			<CommonModule>СтроковыеПреобразования</CommonModule>
+			<CommonModule>ПроведениеРасчетов</CommonModule>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<CommandGroup>Справочники</CommandGroup>
@@ -278,8 +280,10 @@
 			<Catalog>ВидыГрафиковРаботы</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Document>НачисленияСотрудникам</Document>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
+			<Report>НачисленияСотрудникам</Report>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>

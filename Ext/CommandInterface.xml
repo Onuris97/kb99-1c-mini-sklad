@@ -3,6 +3,8 @@
 	<SubsystemsOrder>
 		<Subsystem>Subsystem.МиниСклад</Subsystem>
 		<Subsystem>Subsystem.Бухгалтерия</Subsystem>
+		<Subsystem>Subsystem.ЗарплатаИКадры</Subsystem>
+		<Subsystem>Subsystem.НСИ</Subsystem>
 		<Subsystem>19466efd-c31b-4937-88ab-101f9d212f7d</Subsystem>
 	</SubsystemsOrder>
 </CommandInterface>

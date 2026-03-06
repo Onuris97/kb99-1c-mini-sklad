@@ -27,9 +27,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Реализация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.Начисления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.НачисленияСотрудникам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

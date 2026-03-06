@@ -11,12 +11,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="CalculationRegister.Начисления.StandardCommand.OpenList">
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -46,6 +41,21 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Document.Поступление.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.Реализация.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
@@ -56,8 +66,8 @@
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 		<Command name="Document.Поступление.StandardCommand.OpenList">
@@ -88,14 +98,8 @@
 		<Command name="ChartOfAccounts.Основной.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-		</Command>
-		<Command name="ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="CalculationRegister.Начисления.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
 		<Command name="Document.Поступление.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
@@ -112,6 +116,21 @@
 		<Command name="AccumulationRegister.Продажи.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
+		<Command name="ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="ChartOfAccounts.Основной.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.Поступление.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.Реализация.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>
@@ -119,5 +138,6 @@
 		<Group>CommandGroup.Справочники</Group>
 		<Group>CommandGroup.Документы</Group>
 		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelCreate</Group>
 	</GroupsOrder>
 </CommandInterface>

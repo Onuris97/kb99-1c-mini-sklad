@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<CommandsVisibility>
-		<Command name="Catalog.ВариантыТоваров.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="Catalog.ДополнительныеСвойстаТоваров.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -16,12 +11,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.ЗначенияСвойствТоваров.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Catalog.Субконто.StandardCommand.OpenList">
+		<Command name="Catalog.ВариантыТоваров.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -32,11 +22,6 @@
 			</Visibility>
 		</Command>
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -81,10 +66,6 @@
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
 		<Command name="Document.Поступление.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 			<Placement>Auto</Placement>
@@ -95,13 +76,25 @@
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
+		<Command name="Catalog.ДополнительныеСвойстаТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.Продажи.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВариантыТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
 		<Command name="Catalog.Товары.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
 		<Command name="Document.Поступление.StandardCommand.OpenList">
@@ -131,20 +124,12 @@
 		<Command name="Catalog.ДополнительныеСвойстаТоваров.StandardCommand.Create">
 			<CommandGroup>ActionsPanelCreate</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ЗначенияСвойствТоваров.StandardCommand.Create">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
 		<Command name="ChartOfCharacteristicTypes.СвойстваТоваров.StandardCommand.Create">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="Catalog.Сотрудники.StandardCommand.Create">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="Catalog.Субконто.StandardCommand.Create">
 			<CommandGroup>ActionsPanelCreate</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
 		<Group>CommandGroup.Справочники</Group>
 		<Group>CommandGroup.Документы</Group>
 		<Group>ActionsPanelCreate</Group>
