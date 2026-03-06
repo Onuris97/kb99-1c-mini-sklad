@@ -261,8 +261,10 @@
 			<Role>Администратор</Role>
 			<Role>Директор</Role>
 			<Role>Кладовщик</Role>
-			<Role>Бухгалтер</Role>
 			<Role>Расчетчик</Role>
+			<Role>Бухгалтер</Role>
+			<Role>Менеджер</Role>
+			<Role>Гость</Role>
 			<CommonModule>ПересчетДокументов</CommonModule>
 			<CommonModule>РегламентныеПроцедуры</CommonModule>
 			<CommonModule>СтроковыеПреобразования</CommonModule>
