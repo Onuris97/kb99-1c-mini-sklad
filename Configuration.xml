@@ -258,6 +258,7 @@
 			<CommonPicture>Бухгалтерия</CommonPicture>
 			<CommonPicture>НСИ</CommonPicture>
 			<CommonPicture>ЗарплатаИКадры</CommonPicture>
+			<SessionParameter>ТекущийСклад</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>Директор</Role>
 			<Role>Кладовщик</Role>
@@ -280,12 +281,14 @@
 			<Catalog>ДополнительныеСвойстаТоваров</Catalog>
 			<Catalog>Субконто</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>НачисленияСотрудникам</Document>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>НачисленияСотрудникам</Report>
+			<DataProcessor>ТестоваяОбработка</DataProcessor>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>

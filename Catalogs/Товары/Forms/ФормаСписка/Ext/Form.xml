@@ -105,7 +105,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	СправочникТовары.Ссылка КАК Ссылка,
 	СправочникТовары.ПометкаУдаления КАК ПометкаУдаления,
 	СправочникТовары.Родитель КАК Родитель,
@@ -163,6 +163,10 @@
 					<dcssch:dataPath>КоличествоОстаток</dcssch:dataPath>
 					<dcssch:field>КоличествоОстаток</dcssch:field>
 				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Склад</dcssch:dataPath>
+					<dcssch:field>Склад</dcssch:field>
+				</Field>
 				<Parameter>
 					<dcssch:name>Период</dcssch:name>
 					<dcssch:title xsi:type="v8:LocalStringType">
@@ -192,6 +196,7 @@
 					</dcsset:order>
 					<dcsset:conditionalAppearance>
 						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
 							<dcsset:selection/>
 							<dcsset:filter>
 								<dcsset:item xsi:type="dcsset:FilterItemComparison">

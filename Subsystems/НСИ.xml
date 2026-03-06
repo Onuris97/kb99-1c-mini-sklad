@@ -28,7 +28,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыГрафиковРаботы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияСвойствТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6f4034df-bd13-45e8-a464-36dcb7f56d39</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестоваяОбработка</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
