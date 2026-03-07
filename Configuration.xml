@@ -277,6 +277,7 @@
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<Constant>ПрефиксНумерации</Constant>
+			<CommonForm>ОбщиеНастройки</CommonForm>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
@@ -292,6 +293,7 @@
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>НачисленияСотрудникам</Report>
 			<DataProcessor>СправочнаяИнформацияОПользователе</DataProcessor>
+			<DataProcessor>ОбменДанными</DataProcessor>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>

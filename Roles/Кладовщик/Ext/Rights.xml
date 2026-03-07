@@ -624,7 +624,7 @@
 			<name>Update</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Склад = &amp;Склад</condition>
+				<condition>ГДЕ Склад = &amp;ТекущийСклад</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
