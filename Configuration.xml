@@ -270,10 +270,13 @@
 			<CommonModule>РегламентныеПроцедуры</CommonModule>
 			<CommonModule>СтроковыеПреобразования</CommonModule>
 			<CommonModule>ПроведениеРасчетов</CommonModule>
+			<CommonModule>Обмен</CommonModule>
+			<ExchangePlan>Филиалы</ExchangePlan>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
+			<Constant>ПрефиксНумерации</Constant>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
@@ -288,7 +291,7 @@
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>НачисленияСотрудникам</Report>
-			<DataProcessor>ТестоваяОбработка</DataProcessor>
+			<DataProcessor>СправочнаяИнформацияОПользователе</DataProcessor>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>

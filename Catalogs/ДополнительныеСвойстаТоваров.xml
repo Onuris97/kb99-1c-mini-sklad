@@ -42,7 +42,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваТоваров</xr:Item>
 			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
+			<CodeLength>11</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>

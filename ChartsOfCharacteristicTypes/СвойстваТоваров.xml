@@ -60,7 +60,7 @@
 			</Type>
 			<Hierarchical>false</Hierarchical>
 			<FoldersOnTop>true</FoldersOnTop>
-			<CodeLength>9</CodeLength>
+			<CodeLength>11</CodeLength>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<DescriptionLength>25</DescriptionLength>
 			<CodeSeries>WholeCharacteristicKind</CodeSeries>

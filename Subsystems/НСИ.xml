@@ -29,7 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияСвойствТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестоваяОбработка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СправочнаяИнформацияОПользователе</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
