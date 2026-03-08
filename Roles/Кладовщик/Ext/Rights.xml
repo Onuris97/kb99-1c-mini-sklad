@@ -1064,18 +1064,14 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.СправочнаяИнформацияОПользователе</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
+		<name>Subsystem.НСИИАдминистрирование.Subsystem.НСИ</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.НСИ</name>
+		<name>Subsystem.НСИИАдминистрирование</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

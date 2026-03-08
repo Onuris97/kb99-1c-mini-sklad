@@ -253,7 +253,7 @@
 			<Subsystem>МиниСклад</Subsystem>
 			<Subsystem>Бухгалтерия</Subsystem>
 			<Subsystem>ЗарплатаИКадры</Subsystem>
-			<Subsystem>НСИ</Subsystem>
+			<Subsystem>НСИИАдминистрирование</Subsystem>
 			<CommonPicture>МиниСклад</CommonPicture>
 			<CommonPicture>Бухгалтерия</CommonPicture>
 			<CommonPicture>НСИ</CommonPicture>
@@ -271,10 +271,12 @@
 			<CommonModule>СтроковыеПреобразования</CommonModule>
 			<CommonModule>ПроведениеРасчетов</CommonModule>
 			<CommonModule>Обмен</CommonModule>
+			<CommonModule>РаботаСВалютой</CommonModule>
 			<ExchangePlan>Филиалы</ExchangePlan>
 			<ExchangePlan>Отделения</ExchangePlan>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
+			<ScheduledJob>ОбновлениеКурсовВалют</ScheduledJob>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<Constant>ПрефиксНумерации</Constant>
@@ -287,17 +289,19 @@
 			<Catalog>Субконто</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Валюты</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>НачисленияСотрудникам</Document>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОборотноСальдоваяВедомость</Report>
 			<Report>НачисленияСотрудникам</Report>
-			<DataProcessor>СправочнаяИнформацияОПользователе</DataProcessor>
 			<DataProcessor>ОбменДанными</DataProcessor>
 			<DataProcessor>ОбменСОтделениями</DataProcessor>
+			<DataProcessor>УправлениеРегламентнымиЗаданиями</DataProcessor>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
+			<InformationRegister>КурсыВалют</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваТоваров</ChartOfCharacteristicTypes>

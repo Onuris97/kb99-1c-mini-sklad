@@ -324,9 +324,16 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.СправочнаяИнформацияОПользователе</name>
+		<name>Subsystem.НСИИАдминистрирование.Subsystem.НСИ</name>
 		<right>
-			<name>Use</name>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Валюты</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -335,7 +342,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.НСИ</name>
+		<name>Subsystem.НСИИАдминистрирование</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -423,6 +430,17 @@
 	</object>
 	<object>
 		<name>AccumulationRegister.Продажи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КурсыВалют</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

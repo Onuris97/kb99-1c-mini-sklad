@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<DataProcessor uuid="9b4ff781-e0b4-4fff-b03d-3352fa89087b">
+	<DataProcessor uuid="1225e446-1ebd-4290-92d3-27aa2f52a591">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.СправочнаяИнформацияОПользователе" category="Object">
-				<xr:TypeId>d4f3a7c4-8d1b-45be-991f-8b3ae60d9021</xr:TypeId>
-				<xr:ValueId>ecb9d909-0887-4fa6-90c6-2525f75d2abb</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.УправлениеРегламентнымиЗаданиями" category="Object">
+				<xr:TypeId>139808f2-1992-4cb4-84db-330e436328fd</xr:TypeId>
+				<xr:ValueId>4ad2a4f6-7151-41fe-a3c9-1b805990b273</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.СправочнаяИнформацияОПользователе" category="Manager">
-				<xr:TypeId>9c9d5eb5-62c6-478f-81d4-e47c4c4bc8b7</xr:TypeId>
-				<xr:ValueId>83ba2e68-4ae5-4466-9261-ce683acaebb1</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.УправлениеРегламентнымиЗаданиями" category="Manager">
+				<xr:TypeId>b398ae6d-5dba-419f-9600-4a9c4f2a978e</xr:TypeId>
+				<xr:ValueId>da02a545-6665-42dd-8cf3-78ee764b9acc</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СправочнаяИнформацияОПользователе</Name>
+			<Name>УправлениеРегламентнымиЗаданиями</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Справочная информация о пользователе</v8:content>
+					<v8:content>Управление регламентными заданиями</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.СправочнаяИнформацияОПользователе.Form.Форма</DefaultForm>
+			<DefaultForm>DataProcessor.УправлениеРегламентнымиЗаданиями.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
