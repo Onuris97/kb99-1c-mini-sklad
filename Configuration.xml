@@ -272,6 +272,7 @@
 			<CommonModule>ПроведениеРасчетов</CommonModule>
 			<CommonModule>Обмен</CommonModule>
 			<ExchangePlan>Филиалы</ExchangePlan>
+			<ExchangePlan>Отделения</ExchangePlan>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<CommandGroup>Справочники</CommandGroup>
@@ -294,6 +295,7 @@
 			<Report>НачисленияСотрудникам</Report>
 			<DataProcessor>СправочнаяИнформацияОПользователе</DataProcessor>
 			<DataProcessor>ОбменДанными</DataProcessor>
+			<DataProcessor>ОбменСОтделениями</DataProcessor>
 			<InformationRegister>ЗначенияСвойствТоваров</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>

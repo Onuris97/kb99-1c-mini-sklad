@@ -12,6 +12,17 @@
 				<xr:Value name="Role.Расчетчик">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="ExchangePlan.Отделения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Кладовщик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.Гость">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+			</Visibility>
+		</Command>
 		<Command name="Catalog.Товары.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -73,6 +84,17 @@
 				<xr:Value name="Role.Расчетчик">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="ExchangePlan.Отделения.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Кладовщик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.Гость">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+			</Visibility>
+		</Command>
 		<Command name="CommonForm.ОбщиеНастройки.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -95,9 +117,24 @@
 				<xr:Value name="Role.Расчетчик">false</xr:Value>
 			</Visibility>
 		</Command>
+		<Command name="DataProcessor.ОбменСОтделениями.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Директор">false</xr:Value>
+				<xr:Value name="Role.Кладовщик">false</xr:Value>
+				<xr:Value name="Role.Бухгалтер">false</xr:Value>
+				<xr:Value name="Role.Менеджер">false</xr:Value>
+				<xr:Value name="Role.Гость">false</xr:Value>
+				<xr:Value name="Role.Расчетчик">false</xr:Value>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="ExchangePlan.Филиалы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ExchangePlan.Отделения.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -146,6 +183,9 @@
 		<Command name="ExchangePlan.Филиалы.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
+		<Command name="ExchangePlan.Отделения.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
 		<Command name="Catalog.Товары.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
@@ -176,10 +216,52 @@
 		<Command name="ChartOfCharacteristicTypes.СвойстваТоваров.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
+		<Command name="Catalog.ВариантыТоваров.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВидыГрафиковРаботы.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ДополнительныеСвойстаТоваров.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Контрагенты.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ЗначенияСвойствТоваров.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваТоваров.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Склады.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Субконто.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Товары.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Товары.StandardCommand.CreateFolder">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="ExchangePlan.Филиалы.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="ExchangePlan.Отделения.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
 		<Command name="CommonForm.ОбщиеНастройки.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ОбменДанными.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ОбменСОтделениями.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.СправочнаяИнформацияОПользователе.StandardCommand.Open">
@@ -191,6 +273,7 @@
 		<Group>NavigationPanelOrdinary</Group>
 		<Group>CommandGroup.Справочники</Group>
 		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelCreate</Group>
 		<Group>ActionsPanelTools</Group>
 	</GroupsOrder>
 </CommandInterface>
